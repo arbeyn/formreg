@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+   
+    
+</head>
+<body>
+    
+    <h1 class="header">Registration Form</h1>
+    <p class="header">Please fill out this form with the required information</p>
+
+    <form>
+        <div class="form-group">
+            <label for="firstName"><strong>First Name:</strong></label>
+            <input type="text" id="firstName" name="firstName" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="lastName"><strong>Last Name:</strong></label>
+            <input type="text" id="lastName" name="lastName" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="password"><strong>Create Password:</strong></label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        
+        <div class="checkbox-group">
+            <input type="checkbox" id="program" name="program">
+            <label for="program">Program</label><br>
+            
+            <input type="checkbox" id="yearLevel" name="yearLevel">
+            <label for="yearLevel">Year Level</label><br>
+            
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I accept the terms and conditions</label>
+        </div>
+        
+        <div class="privacy-note">
+            The school ensures data protection by adhering to relevant privacy laws, applying encryption, and requiring informed consent before any external sharing.
+        </div>
+        
+        <hr class="section-divider">
+        
+        <h3>Upload a profile picture:</h3>
+        <div class="file-upload">
+            
+            <input type="text" id="file" No file chosen>
+        </div>
+        
+        <div class="form-group">
+            <label for="firstName"><strong>Birthdate:</strong></label>
+            <br>
+            <input class="form-group1" type="month" id="bday" name="Bday" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="specification"><strong>Specification?</strong></label><br>
+        
+         
+        </div>
+        <div>
+            <label for="bio"><strong>Bio:</strong></label>
+            <br>
+            <textarea class="biio" placeholder="I like coding on the beach........." required></textarea>
+                        <br>
+                        <br>
+                        
+
+                 
+        </div>
+        
+      
+    </form>
+</body>
+</html>
